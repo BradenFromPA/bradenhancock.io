@@ -5,5 +5,6 @@
 * Project Repo
 * Idek yet
 
-> This will most likely be entirely JavaScript `¯\_(ツ)_/'`
+> This will most likely be entirely JavaScript ``\_(ツ)_/``
+
 > Hi mom
