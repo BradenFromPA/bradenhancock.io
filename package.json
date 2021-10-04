@@ -1,0 +1,24 @@
+{
+  "name": "bradenhancock.io",
+  "version": "0.0.1",
+  "description": "My Home Domain",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradenFromPA/bradenhancock.io.git"
+  },
+  "keywords": [
+    "project",
+    "portfolio",
+    "javascript"
+  ],
+  "author": "Braden Hancock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BradenFromPA/bradenhancock.io/issues"
+  },
+  "homepage": "https://github.com/BradenFromPA/bradenhancock.io#readme"
+}
