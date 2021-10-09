@@ -1,8 +1,18 @@
+import { useEffect, useState } from 'react';
 import './App.css';
+import Nav from './components/nav/Nav';
 
-function App() {
+const App = () => {
+  const [deviceWidth, setDeviceWidth] = useState(window.innerWidth);
+  const breakpoint = 1400;
+
+  useEffect(() => {
+    window.addEventListener('resize', () => setDeviceWidth(window.innerWidth));
+  }, []);
+
   return (
-    <div className="App">
+    <div className='App'>
+      <Nav deviceWidth={ deviceWidth } breakpoint={ breakpoint }/>
     </div>
   );
 }

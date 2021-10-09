@@ -1,0 +1,17 @@
+.Nav {
+  height: 10%;
+}
+
+#width-flex {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  font-size: 1.5rem;
+  margin: 0;
+}
